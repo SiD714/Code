@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo su -
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+echo "This is my Bootstrapp Server">index.html
+
+//ec2 server banate time isko user data me paste
+ karke lauch karenge to bina connect kiye ye massage ip search karne pe show karega

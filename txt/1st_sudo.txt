@@ -1,0 +1,31 @@
+sudo su -
+//super user ban jayenge
+
+yum install httpd
+//package install karenge
+
+//agar yes ya know pucchega
+//to yes karenge
+
+systemctl start httpd
+//for start the server
+
+systemctl enable httpd
+
+systemctl status httpd
+//status dekhne ke liye active dikhayega
+
+cd /var/www/html
+//cd matlab change directory
+
+nano index.html
+//file create karenge
+//ab is file me kuch bhi likh sakte hai
+//ctrl s se save and ctrl x se bahar
+
+cat index.html
+//cat dalte hai dekhne ke liye ki kya hai index me
+
+//change karne ke liye wapas se html pe jayenge
+nano index.html
+//ab change kar sakte hai
