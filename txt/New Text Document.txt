@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details Form</title>
+</head>
+<body>
+    <h2><mark>PROJECT-</mark> RUN AN APPLICATION USING DOCKER</h2>
+    <h2>Employee Details Form</h2>
+    <form action="#" method="post">
+        <label for="emp_name">Employee Name:</label><br>
+        <input type="text" id="emp_name" name="emp_name"><br><br>
+        
+        <label for="emp_id">Employee ID:</label><br>
+        <input type="text" id="emp_id" name="emp_id"><br><br>
+        
+        <label for="emp_email">Email:</label><br>
+        <input type="email" id="emp_email" name="emp_email"><br><br>
+        
+        <label for="emp_phone">Phone:</label><br>
+        <input type="tel" id="emp_phone" name="emp_phone"><br><br>
+        
+        <label for="emp_dept">Department:</label><br>
+        <select id="emp_dept" name="emp_dept">
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="IT">IT</option>
+            <option value="Operations">Operations</option>
+            <option value="Marketing">Marketing</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
